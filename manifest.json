@@ -1,0 +1,21 @@
+{
+    "name": "One Tab",
+    "version": "1.5",
+    "author": "Nithilan Elankathir",
+    "manifest_version": 3,
+    "description": "",
+    "chrome_url_overrides": {
+        "newtab": "new_tab.html"
+     },
+    "icons": {
+        "128": "assets/logo.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "unlimitedStorage",
+        "history",
+        "scripting"
+    ]
+}
